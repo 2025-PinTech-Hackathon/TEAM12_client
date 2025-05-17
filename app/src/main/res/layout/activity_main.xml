@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F4F6">
+
+    <!-- 여기에 콘텐츠를 추가하세요 -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="117dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/appbar1" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="146dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/appbar2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="383dp"
+        android:layout_height="172dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/aaa" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="391dp"
+        android:layout_height="203dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="250dp"
+        app:srcCompat="@drawable/www" />
+
+    <ImageView
+        android:id="@+id/imagebutton1"
+        android:layout_width="64dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="353dp"
+        android:src="@drawable/qwer"
+        android:background="@null"
+        android:contentDescription="설명 텍스트" />
+
+    <ImageButton
+        android:id="@+id/imagebutton"
+        android:layout_width="64dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="353dp"
+        android:background="@null"
+        android:contentDescription="설명 텍스트" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KYC"
+        android:textStyle="bold"
+        android:layout_marginTop="404dp"
+        android:layout_marginLeft="333dp"/>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="391dp"
+        android:layout_height="203dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="410dp"
+        app:srcCompat="@drawable/four" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="389dp"
+        android:layout_height="203dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="520dp"
+        app:srcCompat="@drawable/qwerqwer" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="660dp"
+        app:srcCompat="@drawable/six" />
+
+
+</FrameLayout>
